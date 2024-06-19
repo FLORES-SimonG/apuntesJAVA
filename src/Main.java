@@ -41,7 +41,15 @@ public class Main {
         System.out.println("INGRESA TU NOMBRE:");
         String name = scanner.nextLine(); //para leer nombres
         System.out.println("hola amigo, vos te llamás---> " + name);
-        scanner.close(); // para cerrar el scanner, es buena practica hacer esto.
+        System.out.println("INGRESA TU EDAD:");
+        int age =scanner.nextInt();
 
+        if (age<18){
+            System.err.println("la edad no puede ser negativa");
+        }else {
+            System.out.println("Bienvenido");
+        }
+        System.out.println("addios mundito");
+        scanner.close(); // para cerrar el scanner, es buena practica hacer esto.
     }
 }
