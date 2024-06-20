@@ -67,9 +67,12 @@ public class Main {
 //            }
 //        }
 //       CREACIÓN DE ARCHIVOS
-        FileWriter writer = new FileWriter("demo.txt", true);
-        writer.write("Esto es un mensaje importante\n");
-        writer.write("Este es otro mensajito\n");
+        Scanner scanner = new Scanner(System.in);
+        FileWriter writer = new FileWriter("texto.txt", false);
+        System.out.println("INGRESA NOMBRE DE LA EMPRESA:");
+        String name = scanner.nextLine();
+        writer.write("la web de la oferta se llama: " + name);
+
         writer.close();
 
     }
