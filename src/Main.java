@@ -1,5 +1,7 @@
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -66,14 +68,30 @@ public class Main {
 //                System.out.println("letra no válida --> " + arrayGrande[i]);
 //            }
 //        }
-//       CREACIÓN DE ARCHIVOS
-        Scanner scanner = new Scanner(System.in);
-        FileWriter writer = new FileWriter("texto.txt", false);
-        System.out.println("INGRESA NOMBRE DE LA EMPRESA:");
-        String name = scanner.nextLine();
-        writer.write("la web de la oferta se llama: " + name);
+////       CREACIÓN DE ARCHIVOS
+//        Scanner scanner = new Scanner(System.in);
+//        FileWriter writer = new FileWriter("texto.txt", false);
+//        System.out.println("INGRESA NOMBRE DE LA EMPRESA:");
+//        String name = scanner.nextLine();
+//        writer.write("la web de la oferta se llama: " + name);
+//
+//        writer.close();
 
-        writer.close();
+        // PARA LEER UN ARCHIVO QUE SE VA A CARGAR EXTEIORMENTE
+
+//        File file =new File("demo.txt");
+//        Scanner scanner =new Scanner(file);
+//
+//        while (scanner.hasNextLine()){
+//            String line =scanner.nextLine();
+//            System.out.println(line);
+//        }
+//scanner.close();
+
+        
+
+
+
 
     }
 }
