@@ -1,3 +1,5 @@
+import clases.Movie;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -88,10 +90,24 @@ public class Main {
 //        }
 //scanner.close();
 
-        
+//        Movie old=new Movie("shrek",2005);
+//        Movie newFilm=new Movie("campeones del mundo",2024);
+//
+//
+//
 
-
-
-
+//INTERFACES
+//        public inteface MecanicaDelAuto {
+//            boolean esUnAuto();
+//            void firma();
+//        }
+//        public class Auto implements MecanicaDelAuto {
+//            public boolean esUnAuto{
+//                true;
+//            }
+        }
     }
+
+
+}
 }
